@@ -11,7 +11,7 @@ This is the fastest answer to *"can they do X in Y?"*
 | Backend | PHP 8.3+, Laravel 12/13, Filament, Livewire, Eloquent | [01](cases/01-invariant-enforcement/), [02](cases/02-billing-lifecycle/), [availability](snippets/availability-engine/), [import](snippets/bulk-import/), [conversation](snippets/conversation-flow/) |
 | Backend | TypeScript, Node, Bun, Hono, oRPC, Drizzle | [03](cases/03-agent-interface/), [06](cases/06-type-safe-api/), [realtime](snippets/realtime-gateway/), [storage](snippets/storage-router/), [rate-limit](snippets/lua-rate-limiter/) |
 | Frontend | Svelte 5 (runes), SvelteKit, TanStack | [04](cases/04-declarative-admin/) |
-| Frontend | Vue 3, Nuxt, Pinia, ECharts | [05](cases/05-reporting-engine/), [dashboard](snippets/dashboard-component-system/) |
+| Frontend | Vue 3, Nuxt, Pinia, ECharts | [05](cases/05-reporting-engine/), [08](cases/08-transient-entitlement-routing/), [09](cases/09-course-progression-certificates/), [dashboard](snippets/dashboard-component-system/) |
 | Frontend | React, TanStack Router/Query/Start | [03](cases/03-agent-interface/), [06](cases/06-type-safe-api/) |
 | Mobile | Dart, Flutter, Riverpod, Drift (SQLite) | [07](cases/07-offline-first-mobile/), [backup](snippets/auto-backup-system/) |
 
@@ -70,6 +70,14 @@ This is the fastest answer to *"can they do X in Y?"*
 | Geospatial aggregation | [map-clusterer](snippets/map-clusterer/) |
 | State machines for real-world conversations | [conversation-flow](snippets/conversation-flow/) |
 | Bulk data ingestion with real-world messiness | [bulk-import](snippets/bulk-import/) |
+
+### Product & entitlement (learning)
+| Skill | Evidence |
+|---|---|
+| Entitlement decisions as a pure function, enforced once in routing | [08 Entitlement routing](cases/08-transient-entitlement-routing/) |
+| Time-aware UI that agrees between server and client (no hydration mismatch) | [08 Entitlement routing](cases/08-transient-entitlement-routing/) |
+| Normalizing an evolving external contract into a stable model | [09 Course progression](cases/09-course-progression-certificates/) |
+| Gating progression and issuing verifiable, shareable credentials | [09 Course progression](cases/09-course-progression-certificates/) |
 
 ### Engineering practice
 | Skill | Evidence |

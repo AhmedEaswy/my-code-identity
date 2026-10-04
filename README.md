@@ -47,6 +47,7 @@ below, the [skills matrix](SKILLS.md), and [how I think](docs/engineering-philos
 | Backend / platform | [01 Money integrity](cases/01-invariant-enforcement/) · [02 Billing lifecycle](cases/02-billing-lifecycle/) · [availability engine](snippets/availability-engine/) |
 | Full-stack / API | [06 Type-safe APIs](cases/06-type-safe-api/) · [03 Agent interface](cases/03-agent-interface/) |
 | Frontend | [04 Declarative admin](cases/04-declarative-admin/) · [05 Reporting engine](cases/05-reporting-engine/) · [dashboard components](snippets/dashboard-component-system/) |
+| Product / learning | [08 Entitlement routing](cases/08-transient-entitlement-routing/) · [09 Course progression](cases/09-course-progression-certificates/) |
 | Mobile | [07 Offline-first mobile](cases/07-offline-first-mobile/) · [auto-backup system](snippets/auto-backup-system/) |
 | Distributed systems | [realtime gateway](snippets/realtime-gateway/) · [storage router](snippets/storage-router/) · [rate limiter](snippets/lua-rate-limiter/) |
 
@@ -65,6 +66,8 @@ A longer guide lives in [`docs/reading-guide.md`](docs/reading-guide.md).
 | 05 | [Reporting engine](cases/05-reporting-engine/) | Registry-driven reports with pure chart builders and correct bidirectional Arabic formatting | Vue 3 · Nuxt |
 | 06 | [Type-safe APIs](cases/06-type-safe-api/) | One schema end-to-end, and a CI gate that fails on contract drift | Bun · TypeScript |
 | 07 | [Offline-first mobile](cases/07-offline-first-mobile/) | Safe multi-step local migrations, analytic SQL, and hardware printing | Dart · Flutter |
+| 08 | [Transient entitlement routing](cases/08-transient-entitlement-routing/) | Two axes — who is looking and when it is — decide what a live-session viewer may see, enforced once in routing | Vue 3 · Nuxt |
+| 09 | [Course progression & certificates](cases/09-course-progression-certificates/) | Normalizing an evolving course API, gating progress through quizzes, and issuing a verifiable certificate | Vue 3 · Nuxt |
 
 ### Snippets — one deep idea each
 

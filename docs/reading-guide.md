@@ -16,6 +16,7 @@ and the test.
 | Backend / money | [01 Money integrity](../cases/01-invariant-enforcement/) → [02 Billing lifecycle](../cases/02-billing-lifecycle/) → [availability engine](../snippets/availability-engine/) |
 | APIs / platform | [06 Type-safe APIs](../cases/06-type-safe-api/) → [03 Agent interface](../cases/03-agent-interface/) → [realtime gateway](../snippets/realtime-gateway/) |
 | Frontend / product | [04 Declarative admin](../cases/04-declarative-admin/) → [05 Reporting engine](../cases/05-reporting-engine/) → [dashboard components](../snippets/dashboard-component-system/) |
+| Learning / product | [08 Entitlement routing](../cases/08-transient-entitlement-routing/) → [09 Course progression](../cases/09-course-progression-certificates/) |
 | Mobile | [07 Offline-first mobile](../cases/07-offline-first-mobile/) → [auto-backup system](../snippets/auto-backup-system/) |
 | Platform / infra | [realtime gateway](../snippets/realtime-gateway/) → [storage router](../snippets/storage-router/) → [rate limiter](../snippets/lua-rate-limiter/) |
 
