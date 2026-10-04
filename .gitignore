@@ -1,0 +1,27 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Env / secrets — this repo must never contain real credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*service-account*.json
+
+# Language caches (samples are read-only, but keep them clean)
+node_modules/
+vendor/
+.dart_tool/
+build/
+dist/
+.output/
+.nuxt/
+.svelte-kit/
+
+# Logs
+*.log
